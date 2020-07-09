@@ -27,8 +27,5 @@ RUN rm -R git-2.26.1 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Tests
-RUN jupyter --version
-
 # Test Git 2.26.1
 RUN git --version
